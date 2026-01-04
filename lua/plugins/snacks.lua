@@ -60,7 +60,13 @@ return {
     explorer = { enabled = false },
     indent = { enabled = true },
     input = { enabled = true },
-    picker = { enabled = true },
+
+    -- An alternative to Telescope if you like! Features grep, symfind, file finder and the like
+    picker = { 
+      enabled = true,
+
+    },
+
     notifier = { enabled = true },
     quickfile = { enabled = true },
     scope = { enabled = true },
