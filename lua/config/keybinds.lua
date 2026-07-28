@@ -36,3 +36,7 @@ vim.keymap.set("n", "<leader>[", ":NvimTreeClose<Enter>", { desc = "Close Nvimtr
 
 -- Allows resizing of your windows through... your mouse!
 vim.cmd("set mouse=a")
+
+-- Exclusive clipboard copying with ctrl + shift + c TODO:
+-- vim.keymap.set('v', '<C-S-c>', '"+y', { desc = 'Copy to system clipboard' })
+
