@@ -31,6 +31,9 @@ vim.keymap.set("n", "<leader>jj", ":vertical resize -10", { desc = "Resize your 
 vim.keymap.set("n", "<leader>]", ":NvimTreeFindFile<Enter>", { desc = "Open Nvimtree with focused file" })
 vim.keymap.set("n", "<leader>[", ":NvimTreeClose<Enter>", { desc = "Close Nvimtree" })
 
+-- Disable concealment
+vim.opt_local.conceallevel = 0
+
 
 -- vim.cmd('let mapleader = " "') -- Also set within the other lua file for lazy
 
